@@ -26,7 +26,15 @@ def multiply(array)
 end
 
 def power(a,b)
-    b.times do
-        a * a
+    a ** b
+end
+
+def factorial(n)
+    a = 1
+    b = 1
+    while b <= n 
+        a *= b
+        b +=1
     end
+    a
 end
